@@ -1,0 +1,59 @@
+{
+  "clearInfo": {
+    "clearUrl": "api/clear.json"
+  },
+  "homeInfo": {
+    "title": "首页",
+    "icon": "fa fa-home",
+    "href": "/train/manage/welcome.jsp"
+  },
+  "logoInfo": {
+    "title": "后台管理",
+    "image": "/train/images/logo.png",
+    "href": ""
+  },
+  "menuInfo": {
+    "currency": {
+      "title": "",
+      "icon": "",
+      "child": [
+        {
+          "title": "用户管理",
+          "href": "/train/manage/users.jsp",
+          "icon": "fa fa-users",
+          "target": "_self"
+        },
+        {
+          "title": "车次管理",
+          "href": "/train/manage/checi.jsp",
+          "icon": "fa fa-train",
+          "target": "_self"
+        },
+        {
+          "title": "订单管理",
+          "href": "/train/manage/orders.jsp",
+          "icon": "fa fa-credit-card",
+          "target": "_self"
+        },
+        {
+          "title": "公告管理",
+          "href": "/train/manage/gonggao.jsp",
+          "icon": "fa fa-volume-down",
+          "target": "_self"
+        },
+         {
+          "title": "留言管理",
+          "href": "/train/manage/message.jsp",
+          "icon": "fa fa-comments-o",
+          "target": "_self"
+        },
+        {
+          "title": "退出",
+          "href": "/train/user/logout",
+          "icon": "fa fa-window-close",
+          "target": "_self"
+        }
+      ]
+    }
+  }
+}
